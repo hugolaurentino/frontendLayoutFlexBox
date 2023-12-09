@@ -1,0 +1,131 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+header{
+    width: 20%;
+    min-height: 100%;
+
+    background-image: url('./assets/R.jpeg');
+    background-position: inherit;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header .logo{
+    width: 100%;
+    height: 20vh;
+    border-bottom: 1px solid #e2cfcf;
+    border-right: 1px solid #e2cfcf;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .logo img{
+    width: 100%;
+    height: 100%;
+}
+header .link{
+    width: 100%;
+    min-height: 50vh;
+    margin-left: 20px;
+
+    background-image: url('./assets/onpis.png');
+    /* background-position: inherit; */
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+header .link ul{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0px;
+    list-style: none;
+}
+
+header .link ul li {
+    width: 100%;
+    height: 50px;
+
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    gap: 10px;
+}
+
+header .link ul li a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    color: #a3a3a3;
+    text-decoration: none;
+}
+
+header .link ul li img{
+    width: 20px;
+    height: 20px;
+}
+
+
+header .footer {
+    width: 100%;
+    min-height: 30vh;
+    border-top: 1px solid #e2cfcf;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+    /* background-image: url('./assets/mar.png'); */
+    /* background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+
+}
+
+header .footer .foto{
+    width: 90px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    border: 2px solid #0fa20f;
+    padding: 2px;
+}
+
+header .footer h2 {
+    color: #a3a3a3;
+    font-size: 15px;
+}
+
+header .footer .entrar{
+    width: 100%;
+    padding-left: 15px;
+}
+
+header .footer .entrar a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    font-size: 12px;
+    color: #a3a3a3;
+    text-decoration: none;}
+
+header .footer .entrar .entrada{
+    width: 20px;
+    height: 20px;
+}
